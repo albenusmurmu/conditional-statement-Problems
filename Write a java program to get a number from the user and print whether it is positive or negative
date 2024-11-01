@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Coditional {
+    public static void main(String[] args){
+        Scanner st = new Scanner(System.in);
+        System.out.println("Welcome");
+        int a = 2;
+          if(a>=0){
+            System.out.println("Positive Number");
+        }
+        else {
+            System.out.println("Negative number");
+      }
+  }
+}
