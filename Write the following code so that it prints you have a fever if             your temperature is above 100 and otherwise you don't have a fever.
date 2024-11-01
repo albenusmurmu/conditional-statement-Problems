@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Coditional {
+    public static void main(String[] args){
+        Scanner st = new Scanner(System.in);
+        System.out.println("Welcome");
+         double tem = 70;
+        if(tem > 100){
+            System.out.println("You have a fever");
+        }
+        else{
+            System.out.println("You don't have a fever");
+        }
+  }
+}
